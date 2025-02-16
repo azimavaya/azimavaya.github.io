@@ -32,9 +32,8 @@ body {
 }
 
 .image {
-    width: 700px;
-    height: 900px;
-    background-color: #C2D8B9;
+    width: 500px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
