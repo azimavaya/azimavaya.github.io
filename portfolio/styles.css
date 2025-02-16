@@ -70,8 +70,8 @@ body {
 
 /* Footer Styling */
 .footer {
-    background-color: #363E45;
-    color: #C5D2E7;
+    background-color: #C2D8B9;
+    color: #fffcf7;
     text-align: center;
     padding: 20px;
     font-size: 16px;
@@ -82,7 +82,7 @@ body {
 }
 
 .footer a {
-    color: #C2D8B9;
+    color: #c5d2e7;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease-in-out;
