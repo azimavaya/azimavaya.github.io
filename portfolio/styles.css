@@ -1,5 +1,5 @@
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -79,10 +79,11 @@ nav ul li a:hover {
 }
 
 .text p {
-    font-size: 45px;
+    font-size: 35px;
     line-height: 1.6;
     color: #363E45;
     font-weight: 600;
+    font-family: 'Playfair Display', serif;
 }
 
 .image {
