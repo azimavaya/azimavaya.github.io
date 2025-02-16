@@ -1,3 +1,17 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCF7;
+    color: #363E45;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* Navigation Styling */
 header {
     background-color: #363E45;
@@ -36,4 +50,81 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #C2D8B9;
+}
+
+/* Layout and Content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: left;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #363E45;
+}
+
+.text p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #363E45;
+    font-weight: 600;
+}
+
+.image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 4px solid #C2D8B9;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #363E45;
+    color: #C5D2E7;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer a {
+    color: #C2D8B9;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .image {
+        width: 200px;
+        margin-top: 20px;
+    }
 }
