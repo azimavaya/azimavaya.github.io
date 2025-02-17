@@ -121,6 +121,14 @@ nav ul li a:hover {
     color: #363E45;
     margin-bottom: 15px;
 }
+/* About Page Image */
+.about-container .image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 
 /* Footer Styling */
 .footer {
