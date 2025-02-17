@@ -129,6 +129,46 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+/* Contact Page Styling */
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-links p {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-links a {
+    color: #363E45;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-links a:hover {
+    color: #C2D8B9;
+}
+
+.contact-links img {
+    width: 24px;
+    height: 24px;
+}
 
 /* Footer Styling */
 .footer {
