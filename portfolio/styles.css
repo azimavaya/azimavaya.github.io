@@ -199,23 +199,39 @@ nav ul li a:hover {
 /* Contact Page Styling */
 .contact-container {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
     max-width: 800px;
     margin: auto;
+}
+
+.contact-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #363E45;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-description {
+    font-size: 22px;
+    font-weight: 400;
+    color: #363E45;
+    margin-bottom: 40px;
 }
 
 .contact-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .contact-links p {
     font-size: 18px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .contact-links a {
@@ -224,7 +240,7 @@ nav ul li a:hover {
     font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -233,11 +249,9 @@ nav ul li a:hover {
 }
 
 .contact-links img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
-
-
 
 /* Footer Styling */
 .footer {
