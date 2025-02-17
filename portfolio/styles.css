@@ -67,11 +67,11 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.home-text {
+.text {
     max-width: 500px;
 }
 
-.home-text p {
+.text p {
     font-size: 40px;
     line-height: 1.6;
     color: #363E45;
@@ -81,7 +81,7 @@ nav ul li a:hover {
     letter-spacing: 2px;
 }
 
-.home-image {
+.image {
     width: 350px;
     height: auto;
     border-radius: 10px;
