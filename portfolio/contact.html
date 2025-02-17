@@ -1,13 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title> Zimavaya </title>  
-  </head>
-  <body>
-  <h2>
-    Alina Zimavaya
-  </h2>
-  <p> This is Contact page </p>
-  </body>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Alina Zimavaya</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container contact-container">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out! Fill out the form below or connect with me through my social links.</p>
+        
+        <form action="mailto:azimavay@highpoint.edu" method="post" enctype="text/plain" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-links">
+            <p><a href="mailto:azimavay@highpoint.edu">Email: azimavay@highpoint.edu</a></p>
+            <p><a href="tel:+19197917215">Phone: (919) 791-7215</a></p>
+            <p><a href="https://linkedin.com/in/alina-zimavaya-8977bb293" target="_blank">LinkedIn</a></p>
+            <p><a href="https://azimavaya.github.io" target="_blank">GitHub</a></p>
+            <p><a href="https://www.instagram.com/zima_alya/?next=%2F" target="_blank">Instagram</a></p>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Alina Zimavaya | <a href="mailto:azimavay@highpoint.edu">azimavay@highpoint.edu</a> | <a href="tel:+19197917215">(919) 791-7215</a> | <a href="https://linkedin.com/in/alina-zimavaya-8977bb293" target="_blank">LinkedIn</a> | <a href="https://azimavaya.github.io" target="_blank">GitHub</a> | <a href="https://www.instagram.com/zima_alya/?next=%2F" target="_blank">Instagram</a></p>
+    </footer>
+</body>
 </html>
