@@ -127,19 +127,19 @@ nav ul li a:hover {
 }
 
 .contact-title {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     color: #363E45;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .contact-description {
-    font-size: 45px;
+    font-size: 22px;
     font-weight: 400;
     color: #363E45;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .contact-links {
