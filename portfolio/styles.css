@@ -121,51 +121,52 @@ nav ul li a:hover {
 /* Contact Page Styling */
 .contact-container {
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
     max-width: 900px;
     margin: auto;
 }
 
 .contact-title {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     color: #363E45;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .contact-description {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     color: #363E45;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .contact-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
     width: 100%;
     margin-bottom: 40px;
 }
 
 .contact-links p {
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .contact-links a {
     color: #363E45;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     transition: color 0.3s ease-in-out;
+    font-size: 16px;
 }
 
 .contact-links a:hover {
@@ -173,8 +174,8 @@ nav ul li a:hover {
 }
 
 .contact-links img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
 }
 
 .contact-form {
@@ -182,9 +183,9 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #C5D2E7;
+    padding: 25px;
+    border-radius: 12px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 600px;
@@ -200,12 +201,13 @@ nav ul li a:hover {
 
 .contact-form input, .contact-form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
-    border: 2px solid #C5D2E7;
-    border-radius: 5px;
+    border: 2px solid #C2D8B9;
+    border-radius: 8px;
     outline: none;
     font-family: 'Montserrat', sans-serif;
+    background-color: #FFFCF7;
 }
 
 .contact-form textarea {
@@ -215,11 +217,11 @@ nav ul li a:hover {
 .contact-form button {
     background-color: #363E45;
     color: #C5D2E7;
-    padding: 12px 20px;
+    padding: 14px 22px;
     font-size: 18px;
     font-weight: 600;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     width: 100%;
