@@ -5,4 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.insertAdjacentHTML("afterbegin", data); // Insert at the top of body
         })
         .catch(error => console.error("Error loading navigation:", error));
+
+      // Load the footer
+    fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.body.insertAdjacentHTML("beforeend", data);
+        })
+        .catch(error => console.error("Error loading footer:", error));
 }); 
