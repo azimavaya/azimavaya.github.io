@@ -378,7 +378,7 @@ nav ul li a:hover {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: #363E45;
@@ -393,6 +393,8 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .footer p {
@@ -401,9 +403,15 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.color-palette-link {
+.footer-icon-container {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 50px;
+}
+
+.color-palette-link {
+    display: inline-block;
 }
 
 .palette-icon {
