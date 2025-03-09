@@ -374,8 +374,8 @@ nav ul li a:hover {
     color: #363E45;
 }
 
-/* Footer Styling */
 
+/* Footer Styling */
 .footer {
     display: flex;
     justify-content: center;
@@ -403,6 +403,16 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.footer a {
+    color: #C5D2E7;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #C2D8B9;
+}
+
 .footer-icon-container {
     display: flex;
     align-items: center;
@@ -423,7 +433,6 @@ nav ul li a:hover {
 .palette-icon:hover {
     opacity: 0.7;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
